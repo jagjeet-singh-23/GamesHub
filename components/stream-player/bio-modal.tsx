@@ -15,7 +15,7 @@ import { updateUser } from "@/actions/user";
 import { toast } from "sonner";
 
 interface BioModalProps {
-  initialValue: string;
+  initialValue: string | null;
 }
 
 export const BioModal = ({ initialValue }: BioModalProps) => {
